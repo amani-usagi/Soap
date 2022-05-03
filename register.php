@@ -45,6 +45,13 @@ if(isset($_POST["register"])){
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
+        <style>
+            .link {
+                padding-right: 10px;
+                text-decoration: none;
+                font-weight: bold;
+            }
+        </style>
     </head>  
     <body>  
         <div class="container">
@@ -53,8 +60,8 @@ if(isset($_POST["register"])){
             <!-- registration form -->
                 <div class="panel-heading">
                     Registration Form
-                    <!-- <a class = "link" href="./client.php">Search</a> -->
-                    <a class = "link" href="./read.php">Search</a>
+                    <a class = "link" href="./client.php">Client</a>
+                    <a class = "link" href="./read.php">Read</a>
                 </div>
                     <div class="panel-body">
                         <form method="post" name="reg_form">

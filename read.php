@@ -7,6 +7,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>SOAP: Client</title>
+    <style>
+        .link {
+            padding: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -14,6 +21,7 @@
     <div class="panel panel-heading">
         <h2>Student Search</h2>
         <a class="link" href="./register.php">Register</a>
+        <a class="link" href="./client.php">Client</a>
     </div>
     <div class="panel panel-body">
         <form class="form-inline" action="" method="POST">
